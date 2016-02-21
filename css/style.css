@@ -116,7 +116,7 @@ p {
 }
 
 .header_area_text a {
-    background: #4ECB8C;
+    /*background: #4ECB8C;*/
     display: inline-block;
     padding: 10px 15px;
     text-transform: uppercase;
@@ -254,7 +254,7 @@ p {
 }
 /************** blog area css ******************/
 
-#blog_area {
+#portfolio_area {
     background: #fff
 }
 

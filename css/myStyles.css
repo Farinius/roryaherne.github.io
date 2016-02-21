@@ -1,0 +1,12 @@
+.social-media-list img {
+    border: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.bg-white {
+    background: #ffffff;
+}
+
