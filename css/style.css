@@ -258,7 +258,9 @@ p {
     background: #fff
 }
 
-.single_blog {}
+.single_blog {
+    color: #000000;
+}
 
 .single_blog img {}
 

@@ -1,5 +1,6 @@
 p.fa {
     display: block;
+    font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif, FontAwesome;
 }
 
 ul {
@@ -8,4 +9,56 @@ ul {
 
 .container {
     margin: 2em auto 2em auto;
+}
+
+.headshot{
+    width: 200px;
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #000;
+}
+
+.col-md-2 {
+    font-weight: bold;
+}
+
+body {
+    font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+    text-align: justify;
+}
+
+.logo-row img.img-responsive{
+    max-width: 116px;
+}
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.firm {
+    font-size: small;
+}
+
+.padBottom{
+    padding-bottom: 1em;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.inside {
+    list-style-position: inside;
 }

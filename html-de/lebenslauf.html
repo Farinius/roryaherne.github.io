@@ -22,21 +22,26 @@
 <body>
 
 <div class="container">
-
-    <h1>Lebenslauf</h1>
+    <div class="row">
+        <div class="col-md-4"><h1>Lebenslauf</h1></div>
+        <div class="col-md-4"><h1 class="right-align">Rory Aherne</h1></div>
+        <div class="col-md-8"><hr></div>
+    </div>
 
     <div class="row">
         <div class="col-md-2">
             ANGABEN ZUR PERSON
         </div>
         <div class="col-md-6">
-            <p>Aherne Rory<p>
+            <img class="img-responsive headshot" src="../images/headshot.jpg">
+            <p>Rory Aherne<p>
             <p class="fa fa-map-marker"> 6176 Völs, Österreich</p>
             <p class="fa fa-mobile-phone"> +43 678 1212 603</p>
-            <p class="fa fa-at"> roryaherne@gmail.com</p>
-            <p class="fa fa-globe"> roryaherne.me</p>
-            <p></p>
-            <p>Geburtsdatum 29. November 1983 | Staatsangehörigkeit irisch</p>
+            <p class="fa fa-at"><a href="mailto:roryaherne@gmail.com" target="_blank"> roryaherne@gmail.com</a></p>
+            <p class="fa fa-globe"><a href="http://roryaherne.me" target="_blank"> roryaherne.me</a></p>
+            <br>
+            <p>Geboren am 29. November 1983</p>
+            <p>Staatsangehörigkeit Irisch</p>
         </div>
     </div>
     <div class="row">
@@ -48,38 +53,49 @@
         </div>
     </div>
     <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-6"></div>
+    </div>
+
+    <!--Right Col Underline-->
+    <div class="row">
         <div class="col-md-2">
         </div>
         <div class="col-md-6">
+            <hr>
         </div>
     </div>
-        <div class="row">
+        <div class="row padBottom">
             <div class="col-md-2">
                 BERUFSERFAHRUNG
             </div>
             <div class="col-md-6">
-                <hr/>
             </div>
         </div>
         <div class="row">
             <div class="col-md-2">
-                Januar 2014 - Jetzt
+                Januar 2014 bis Jetzt
             </div>
             <div class="col-md-6">
-                <p>Informatiker Lehrling</p>
-                <p>WL Consult GmbH</p>
+                <p class="bold">Lehrling für Informatik</p>
+                <p class="bold firm">WL Consult GmbH</p>
                 <ul>
                     <li>
-                        Das habe ich super gemacht
-                    </li>
-                    <li>
-                        Das habe ich super gemacht
-                    </li>
-                    <li>
-                        Das habe ich super gemacht
-                    </li>
-                    <li>
-                        Das habe ich super gemacht
+                        Softwareentwicklung in der medizinisch-gesundheitlichen Industrie
+                        <ul class="inside">
+                            <li>
+                                Menübestellsysteme für mobile Geräte
+                            </li>
+                            <li>
+                                Küchenteam/Ernährungsberatung
+                            </li>
+                            <li>
+                                Speisenverteilung
+                            </li>
+                            <li>
+                                Verwaltung/Management
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
@@ -89,28 +105,27 @@
             Januar 2009 - 2013
         </div>
         <div class="col-md-6">
-            <p>Account Manager</p>
-            <p>Sullivan Insurances Ltd, Limerick (Irland)</p>
+            <p class="bold">Account Manager</p>
+            <p class="bold firm">Sullivan Insurances Ltd, Limerick (Irland)</p>
             <ul>
                 <li>
-                    Führendes Mitglied des Personal & Commercial Versicherungsagentur und verantwortlich für ein
-                    breites Spektum gewerblicher Tätigkeiten und Firmenkunden einschließlichen Handelsketten,
-                    Schankerlaubnis und Hausverwaltungen usw.
+                    Führendes Mitglied der Personal & Commercial Versicherungsagentur auch verantwortlich für ein
+                    breites Spektum gewerblicher Tätigkeiten, sowie Firmenkunden und Handelsketten
                 </li>
                 <li>
-                    Vertreter des Unternehmens bei Limerick -City Handelskammern
+                    Vertreter des Unternehmens bei der Handelskammer von Limerick City
                 </li>
                 <li>
-                    Generierung neuer Geschäfte, “Cross-Selling” und die technische Beratung zu einer Vielzahl von
+                    Generierung neuer Geschäfte, “Cross-Selling” und die technische Beratung von
                     allgemeinen Versicherungsprodukten einschließlich Sach-, Haftpflicht, Berufshaftpflicht, Kraftfahrt-,
-                    See-, Unfall-und Reiseversicherungen.
+                    See-, Unfall-und Reiseversicherungen
                 </li>
                 <li>
-                    Durchschnittlich 80-85% Vertragsverlängerung von Kunden erzielt
+                    Durchschnittlich eine Vertragsverlängerung von 80-85% bei den Kunden erzielt
                 </li>
                 <li>
-                    In direkter Zusammenarbeit mit dem “Senior Management” für Entwicklung, interner Projekte und
-                    Marketing-Initiativen.
+                    In direkter Zusammenarbeit mit dem “Senior Management” für Entwicklung, Interne Projekte sowie
+                    Marketing-Initiativen
                 </li>
             </ul>
         </div>
@@ -120,44 +135,47 @@
             Juni 2006 - September 2007
         </div>
         <div class="col-md-6">
-            <p>Account Manager</p>
-            <p>Sharptext Ltd, Dublin (Irland) </p>
+            <p class="bold">Account Manager</p>
+            <p class="bold firm">Sharptext Ltd, Dublin</p>
             <ul>
                 <li>
                     “Fujitsu Siemens Account Manager” für den größten IT-Händler Irlands
                 </li>
                 <li>
                     Unterstützung der Kunden und kompletter Kundenservice mit nachhaltiger Kundenzufriedenheit,
-                    durch regelmäßigen Kontakt per Telefon, E-Mail und den Versand der monatlichen Preis-Dateien
+                    durch den regelmäßigen Kontakt per Telefon, E-Mail und den Versand der monatlichen Preis-Dateien
                     und Promotionen
                 </li>
                 <li>
-                    Generierung neuer Geschäfte, “Cross-Selling” und die technische Beratung zu einer Vielzahl von
-                    allgemeinen Versicherungsprodukten einschließlich Sach-, Haftpflicht, Berufshaftpflicht, Kraftfahrt-,
-                    See-, Unfall-und Reiseversicherungen.
-                </li>
-                <li>
-                    Übertraf die monatlichen Umsatzziele im “Retail-Bereich”, bevor er Fujitsu Siemens Account
-                    Manager wurde
+                    Übertraf die monatlichen Umsatzziele im “Retail-Bereich”, anschließend "Fujitsu Siemens Account
+                    Manager"
                 </li>
             </ul>
         </div>
     </div>
+    <!--Right Col Underline-->
     <div class="row">
         <div class="col-md-2">
-            SCHUL- UND BERUFSBILDUNG
         </div>
         <div class="col-md-6">
-            <hr/>
+            <hr>
+        </div>
+    </div>
+    <div class="row padBottom">
+        <div class="col-md-2">
+            AUSBILDUNG
+        </div>
+        <div class="col-md-6">
         </div>
     </div>
     <div class="row">
         <div class="col-md-2">
-            <p>Januar 2013 - Present</p>
-            <p>4 x 10 Wochen Blocken</p>
+            <p>Januar 2013 bis Jetzt</p>
         </div>
         <div class="col-md-6">
             <p>Tiroler Fachberufsschule für Elektrotechnik, Kommunikation und Elektronik</p>
+            <p>4 x 10 Wochenblöcke</p>
+            <p>Sehr guter Erfolg in dem letzten Wochenblock</p>
         </div>
     </div>
     <div class="row">
@@ -167,8 +185,8 @@
         <div class="col-md-6">
             <p>2.1 Honours BBS Bachelor of Business Studies</p>
             <p>University of Limerick (Irland)</p>
-            <p>Marketing & Sales</p>
-            <p>Quantitative Data Analysis for Business</p>
+            <p>Marketing & Sales (Major)</p>
+            <p>Quantitative Data Analysis for Business (Minor)</p>
         </div>
     </div>
     <div class="row">
@@ -176,20 +194,27 @@
             September 1996 - Mai 2002
         </div>
         <div class="col-md-6">
-            <p>Leaving Certificate (Irische Matura)</p>
+            <p>Leaving Certificate (Irische Matura - Guter Erfolg)</p>
             <p>Hamilton High School (Cork, Irland)</p>
-            <p>Mathematik, Rechnungsführung, Business Studies, Agrarökonomie, Englisch, Irisch</p>
+            <p>Mathematik, Rechnungswesen, Business Studies, Agrarökonomie, Englisch, Irisch</p>
         </div>
     </div>
+    <!--Right Col Underline-->
     <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-6">
+            <hr>
+        </div>
+    </div>
+    <div class="row padBottom">
         <div class="col-md-2">
             PERSÖNLICHE FÄHIGKEITEN
         </div>
         <div class="col-md-6">
-            <hr/>
         </div>
     </div>
-    <div class="row">
+    <div class="row padBottom">
         <div class="col-md-2">
             Muttersprache
         </div>
@@ -199,43 +224,43 @@
     </div>
     <div class="row">
         <div class="col-md-2">
-            Weitere Sprache
+            Weitere Sprache(n)
         </div>
         <div class="col-md-6">
+            <div class="padBottom">
+                Deutsch
+            </div>
             <div class="table-responsive">
                 <table class="table table-bordered">
                     <thead>
                         <tr>
+                            <!--<th>-->
+                                <!--<p>SPRACHE</p>-->
+                            <!--</th>-->
+                            <th>
+                                <p>VERSTÄNDNIS</p>
+                            </th>
                             <th>
                                 <p>SPRACHE</p>
                             </th>
                             <th>
-                                <p>VERSTEHEN</p>
-                                <span>Hören</span><span>Lesen</span>
-                            </th>
-                            <th>
-                                <p>SPRECHEN</p>
-                                <span>An Gesprächen teilnehmen</span><span>Zusammenhängendes Sprechen</span>
-                            </th>
-                            <th>
-                                <p>SPRECHEN</p>
-                                <span></span>
+                                <p>SCHRIFT</p>
                             </th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
+                            <!--<td>-->
+                                <!--Deutsch-->
+                            <!--</td>-->
                             <td>
-                                Deutsch
+                                Gute Kentnisse
                             </td>
                             <td>
-                                <span>B1</span><span>B1</span>
+                                Ausreichend
                             </td>
                             <td>
-                                <span>B1</span><span>B1</span>
-                            </td>
-                            <td>
-                                <span>B1</span>
+                                Ausreichend
                             </td>
                         </tr>
                     </tbody>
@@ -243,12 +268,20 @@
             </div>
         </div>
     </div>
+    <!--Right Col Underline-->
+    <div class="row">
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-6">
+            <hr>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-2">
             Berufliche Fähigkeiten
         </div>
         <div class="col-md-6">
-            <div class="row">
+            <div class="row logo-row">
                 <div class="col-md-3">
                     <img src="../images/HTML5_Logo_256.png" class="img-responsive">
                 </div>
