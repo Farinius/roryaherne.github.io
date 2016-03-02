@@ -62,3 +62,15 @@ a:hover {
 .inside {
     list-style-position: inside;
 }
+
+.visible-print {
+    display: block !important;
+}
+
+.hidden-print {
+    display: none !important;
+}
+
+@media print {
+    .page-break {page-break-after: always;}
+}
